@@ -2,9 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main prints a random number
- * then states whesther the number is positive or negetive
- * then returns zero */
+/* main - main prints a random number and staites if its
+ * 	positive, negetive or zero
+ *
+ * returns 0 
+ */
 
 int main(void)
 {
