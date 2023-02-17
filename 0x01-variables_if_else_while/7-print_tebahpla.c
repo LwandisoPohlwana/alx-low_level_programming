@@ -2,7 +2,7 @@
 
 /**
  * main - print out all lowercase alphabets in reverce,
- * 	only use putchar
+ *	only use putchar
  *
  * Return: must be 0.
 */
