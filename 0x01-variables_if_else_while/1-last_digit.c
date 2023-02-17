@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the last number of the generated number and ckecks
- * 	if the number is grater than 5, less than 6 or 0
+ *main - prints the last number of the generated number and ckecks
+ *	if the number is grater than 5, less than 6 or 0
  *
- * Return 0
+ *Return 0
  */
 
 int main(void)
