@@ -11,7 +11,7 @@ int main(void)
 	char print[] = "_putchar";
 	int x;
 
-	for (x = 0; x < 1; x++)
+	for (x = 0; x < 9; x++)
 	{
 		_putchar(print[x]);
 	}
