@@ -29,6 +29,10 @@ int main(void)
 		{
 			printf("%d ", v);
 		}
+		if (v == 100)
+		{
+			printf(" ");
+		}
 	}
 	printf("\n");
 	return (0);
