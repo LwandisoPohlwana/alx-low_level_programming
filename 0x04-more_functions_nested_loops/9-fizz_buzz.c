@@ -15,19 +15,19 @@ int main(void)
 	{
 		if (v % 3 == 0 && v % 5 == 0)
 		{
-			printf("FuzzBuzz ");
+			printf("FuzzBuzz");
 		}
 		else if (v % 3 == 0)
 		{
-			printf("Fuzz ");
+			printf("Fuzz");
 		}
 		else if (v % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else
 		{
-			printf("%d ", v);
+			printf("%d", v);
 		}
 		if (v == 100)
 		{
