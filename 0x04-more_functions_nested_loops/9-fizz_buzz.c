@@ -15,11 +15,11 @@ int main(void)
 	{
 		if (v % 3 == 0 && v % 5 == 0)
 		{
-			printf("FuzzBuzz");
+			printf("FizzBuzz");
 		}
 		else if (v % 3 == 0)
 		{
-			printf("Fuzz");
+			printf("Fizz");
 		}
 		else if (v % 5 == 0)
 		{
@@ -28,10 +28,6 @@ int main(void)
 		else
 		{
 			printf("%d", v);
-		}
-		if (v == 100)
-		{
-			printf(" ");
 		}
 	}
 	printf("\n");
