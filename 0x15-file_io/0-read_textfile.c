@@ -21,7 +21,7 @@ ssize_t read_textfile(const char *file, size_t num_letters)
 		return (0);
 	buffer = malloc(sizeof(char) * num_letters);
 	rd = read(file_d, buffer, num_letters);
-	wr = write(STDOUT_FILENO, buf, t);
+	wr = write(STDOUT_FILENO, buffer, rd);
 
 	free(buffer);
 	close(file_d);
